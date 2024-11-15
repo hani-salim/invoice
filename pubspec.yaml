@@ -1,7 +1,7 @@
 name: invoice
 description: "Application for sales management"
 
-publish_to: 'none' 
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -10,25 +10,21 @@ environment:
 
 #------------------ PACKAGES ------------------#
 dependencies:
+  cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
-
-  # Utility Packages
-
-  # Icons
-  cupertino_icons: ^1.0.8
-
-  # State Management
-
-  # Product Specific
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  intl: ^0.20.0
+  intl_phone_number_input: ^0.7.4
+  logger: ^2.4.0
+  url_launcher: ^6.3.1
 
 #------------------ ./PACKAGES END ------------------#
-
 dev_dependencies:
+  flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
@@ -40,12 +36,3 @@ assets:
   - assets/icons/
 
 #------------------ LOCAL FONTS ------------------#
- 
-
-  
-  
-  
-  
-  
-  
-  
